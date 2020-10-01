@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    height: 60px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.action{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

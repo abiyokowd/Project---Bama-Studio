@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    height: 60px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    color: white;
+    text-decoration: none;  
+}
+.header a:hover {
+    color: grey;
+}
+
+.content{
+    display: block;
+    width: 100%;
+}
+
+.upper{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buathover{
+    height: 250px;
+    width: 250px;
+    background: url("../Assets/Tas.png") no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.buathover:hover {
+    background: url("../assets/Hover-Image.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.aboutus{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 1    0px;
+}
+
+.catalogue {
+    border: 2px solid black;
+    background-color:  white;
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+    float: right;
+    margin-top: 10px;
+}
+
+.catalogue:hover {
+    background-color : grey;
+    cursor : pointer;
+}
+
+.middle{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;   
+}
+
+
+.foto {
+    box-shadow: 5px 3px 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.ShopNow{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.ShopNow:hover{
+    background-color: grey;
+    border: grey;
+    cursor: pointer;
+}
+
+.lower {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.comingsoon{
+    padding-top: 50px;
+    height: 850px;
+    width: 100%;
+    background: url("../Assets/Banner.jpg") no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.comingsoon h1{
+    color: white;
+    text-align: center;
+}
+
+#comingsoon{
+    margin-top: 500px;
+}
+
+.contactuus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.footer{
+    text-align: center;
+    background-color: whitesmoke;
+}
